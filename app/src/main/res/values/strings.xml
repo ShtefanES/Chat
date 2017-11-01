@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RecordAudio</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_or_register">Sign in or register</string>
+
+    <string name="auth_failed">Authentication error!\n%s</string>
+    <string name="email_failed">Authentication error, Please enter a valid email!</string>
+    <string name="pass_failed">Authentication error, Please enter a valid password!</string>
+    <string name="successfully_sign_up">You are successfully Registered !!</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="firebase_error">Failed to load data</string>
+
+    <string name="enter_text">Введите текст</string>
+
+    <string name="start_record">говорите</string>
+    <string name="record_too_short">Не записано! Слишком коротко.</string>
+    <string name="record_too_long">Запись остановлена! Слишком долгая запись.</string>
+
+</resources>

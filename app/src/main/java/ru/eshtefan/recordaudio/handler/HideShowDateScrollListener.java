@@ -1,10 +1,11 @@
 package ru.eshtefan.recordaudio.handler;
 
 import android.os.Handler;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
 import android.util.Log;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import ru.eshtefan.recordaudio.commonData.MessageAdapter;
 
 /**

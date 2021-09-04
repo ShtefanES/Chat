@@ -1,16 +1,14 @@
 package ru.eshtefan.recordaudio.commonData;
 
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import androidx.recyclerview.widget.RecyclerView;
 import ru.eshtefan.recordaudio.ChatFragment;
 import ru.eshtefan.recordaudio.R;
 import ru.eshtefan.recordaudio.commonData.model.AudioMsg;

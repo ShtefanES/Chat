@@ -1,6 +1,5 @@
 package ru.eshtefan.recordaudio.commonData;
 
-import android.support.annotation.IntDef;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.NoSuchElementException;
 
+import androidx.annotation.IntDef;
 import ru.eshtefan.recordaudio.ChatFragment;
 import ru.eshtefan.recordaudio.R;
 import ru.eshtefan.recordaudio.commonData.model.dbModel.Message;

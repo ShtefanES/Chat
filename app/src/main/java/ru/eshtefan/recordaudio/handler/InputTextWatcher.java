@@ -1,10 +1,11 @@
 package ru.eshtefan.recordaudio.handler;
 
 import android.os.Handler;
-import android.support.design.widget.FloatingActionButton;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;

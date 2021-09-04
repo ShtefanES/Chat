@@ -1,7 +1,8 @@
 package ru.eshtefan.recordaudio.handler;
 
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * HideShowFABScrollListener слушатель, который предоставляет callback при скроллинге RecyclerView. Задача слушателя предоставить callback-и при скроллинге вверх или вниз.

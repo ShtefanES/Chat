@@ -3,12 +3,14 @@ package ru.eshtefan.recordaudio.view;
 import android.content.Context;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatEditText;
+
 /**
  * MonitoringEditText квстомный вью класс расширяющий класс EditText. Используется для определения действия во время событий вырезать/копировать/вставить в EditText.
  * Created by eshtefan on 14.10.2017.
  */
 
-public class MonitoringEditText extends android.support.v7.widget.AppCompatEditText {
+public class MonitoringEditText extends AppCompatEditText {
 
     /**
      * Интерфейс OnCutCopyPasteListener предоставляет callback-и для выполнения кода во время событий вырезать/копировать/вставить в EditText.

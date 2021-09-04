@@ -1,7 +1,6 @@
 package ru.eshtefan.recordaudio.dbLayer;
 
 import android.net.Uri;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -13,6 +12,7 @@ import com.google.firebase.storage.UploadTask;
 import java.io.File;
 import java.util.Calendar;
 
+import androidx.annotation.NonNull;
 import ru.eshtefan.recordaudio.utils.FBReferences;
 
 /**

@@ -1,11 +1,12 @@
 package ru.eshtefan.recordaudio.commonData.model.dbModel;
 
-import android.support.annotation.IntDef;
 import android.util.Log;
 
 import com.google.firebase.database.PropertyName;
 
 import java.util.Calendar;
+
+import androidx.annotation.IntDef;
 
 /**
  * Message - класс модель сообщения используемый для парснга данных с базы данных.
